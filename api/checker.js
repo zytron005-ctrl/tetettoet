@@ -22,7 +22,7 @@ export default function handler(req, res) {
   try {
     const fs = require('fs');
     const path = require('path');
-    const scriptPath = path.join(process.cwd(), 'api', 'sekerip.lua');
+    const scriptPath = path.join(process.cwd(), 'api', 'climbandjump');
     
     if (!fs.existsSync(scriptPath)) {
       return res.status(404).send('Script not found');
