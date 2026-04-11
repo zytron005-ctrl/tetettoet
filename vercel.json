@@ -1,7 +1,7 @@
 {
   "rewrites": [
     {
-      "source": "/sekerip.lua",
+      "source": "/climbandjump",
       "destination": "/api/checker.js"
     }
   ]
